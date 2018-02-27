@@ -40,12 +40,19 @@ a{
 // styles for buttons
 .btn{
   border-radius: 0;
+  transition: all 0.3s ease;
   
   &.btn-primary{
     background-color : #31E7B6;
     border-color: #31E7B6;
 
     &:hover{
+      background-color : #32d2a7;
+      border-color: #32d2a7;
+    }
+
+    &:active{
+      transform: scale(0.95);
       background-color : #32d2a7;
       border-color: #32d2a7;
     }
